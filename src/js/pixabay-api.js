@@ -2,10 +2,6 @@ import axios from 'axios';
 
 import 'izitoast/dist/css/iziToast.min.css';
 
-
-
-
-
 export function getImagesByQuery(query) {
     const BASE_URL = 'https://pixabay.com/api/';
     const API_KEY = '50348877-00e3539199181f67fed2a274d'
