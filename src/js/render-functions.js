@@ -29,7 +29,7 @@ export function createGallery(images){
     return `<li class="item-gallery">
     <a href="${hit.largeImageURL}">
     <img class="gallery-image" 
-      src="${hit.largeImageURL}" 
+      src="${hit.webformatURL}" 
       alt="${hit.tags}" 
       width="360px"
       height="152px">
